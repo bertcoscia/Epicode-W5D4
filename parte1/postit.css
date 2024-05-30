@@ -30,12 +30,14 @@ p {
     height: 350px;
     text-align: center;
     box-shadow: 15px 15px 9px -6px rgba(0,0,0,0.35);
-    transition: transform 1000ms, box-shadow 1000ms;
+    transition: scale 1000ms, box-shadow 1000ms, rotate 500ms;
 }
 
 .postit:hover {
-    transform: scale(1.2);
-    box-shadow: 30px 30px 9px -6px rgba(0,0,0,0.7);}
+    scale: 1.2;
+    rotate: 0deg;
+    box-shadow: 30px 30px 9px -6px rgba(0,0,0,0.7);
+}
 
 .yellow {
     background-color: #e9eab3;
