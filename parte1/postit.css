@@ -12,7 +12,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    flex-shrink: 0;
     column-gap: 50px;
     row-gap: 70px;
     margin-top: 5em;
