@@ -8,6 +8,10 @@
 7 ritardare progressivamente l'animazione delle altre 2 parole 
 */
 
+*, *::before, *::before {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Bree Serif";
     font-size: 2.5rem;
