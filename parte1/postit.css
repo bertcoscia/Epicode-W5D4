@@ -1,0 +1,45 @@
+body {
+    background-color: #666666;
+    font-family: "Indie Flower";
+    color: #393b40;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 50px;
+    margin-top: 2em;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.postit {
+    width: 350px;
+    height: 350px;
+    text-align: center;
+}
+
+.yellow {
+    background-color: #e9eab3;
+}
+
+.green {
+    background-color: #bae0bb;
+}
+
+.purple {
+    background-color: #b5b4d3;
+}
+
+.text-container {
+    padding-top: 8em;
+}
