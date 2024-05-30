@@ -34,6 +34,7 @@ p {
     text-align: center;
     box-shadow: 15px 15px 9px -6px rgba(0,0,0,0.35);
     transition: scale 1000ms, box-shadow 1000ms, rotate 500ms;
+    animation: leftRight 700ms forwards;
 }
 
 .postit:hover {
@@ -59,4 +60,17 @@ p {
 
 .text-container {
     padding-top: 8em;
+}
+
+@keyframes leftRight {
+    0% {
+        transform: scale(2);
+    }
+    50% {
+        transform: scale(0.9);
+        box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.7);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
