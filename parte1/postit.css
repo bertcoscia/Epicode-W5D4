@@ -2,17 +2,17 @@ body {
     background-color: #666666;
     font-family: "Indie Flower";
     color: #393b40;
-    min-width: 1200px;
 }
 
 .flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    flex-shrink: 0;
     column-gap: 50px;
     row-gap: 70px;
     margin-top: 5em;
-    margin-inline: 2em;
+    margin-inline: 3em;
 }
 
 h2 {
@@ -29,8 +29,13 @@ p {
     width: 350px;
     height: 350px;
     text-align: center;
-    box-shadow: 10px 9px 13px -4px rgba(0,0,0,0.7);
+    box-shadow: 15px 15px 9px -6px rgba(0,0,0,0.35);
+    transition: transform 1000ms, box-shadow 1000ms;
 }
+
+.postit:hover {
+    transform: scale(1.2);
+    box-shadow: 30px 30px 9px -6px rgba(0,0,0,0.7);}
 
 .yellow {
     background-color: #e9eab3;
